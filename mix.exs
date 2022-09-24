@@ -29,7 +29,7 @@ defmodule Guardian.Mixfile do
   end
 
   def application do
-    [applications: [:logger, :poison, :jose, :uuid]]
+    [applications: [:logger, :poison, :jose, :elixir_uuid]]
   end
 
   def docs do
