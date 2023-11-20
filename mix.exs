@@ -16,15 +16,15 @@ defmodule Guardian.Mixfile do
       app: :guardian,
       version: @version,
       elixir: "~> 1.1",
-      package: package,
+      package: package(),
       source_url: @url,
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
       maintainers: @maintainers,
       description: "Elixir Authentication framework",
       homepage_url: @url,
-      docs: docs,
-      deps: deps
+      docs: docs(),
+      deps: deps()
     ]
   end
 
